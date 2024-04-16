@@ -1,0 +1,19 @@
+### Task 1: Merge Customer Lists
+**Goal:** Merge two customer lists from different years into a single list on the "Customers" sheet. This will involve deleting any existing merged list, and the new list will be created in column D.
+
+1. **Set Active Sheet:** Ensure the "Customers" sheet is active for the operations.
+2. **Clear Existing Data:** Check and clear any previously merged lists in column D to prepare for new data.
+3. **Identify Data Ranges:** Locate the ranges containing the customer lists from the previous and current year.
+4. **Merge Logic:** Use a loop to iterate through both lists and append names to column D. Since the lists are sorted, this can be done efficiently using a merge-sort-like approach.
+5. **Create Button:** Insert a button on the "Customers" sheet labeled "Merge Lists" which, when clicked, triggers this macro.
+
+### Task 2: Develop a Simple Calculator
+**Goal:** Create a user form with a simple calculator that supports basic arithmetic operations and validates user input.
+
+The user form will include:
+1. **Textboxes:** Two textboxes for user inputs (x and y).
+2. **Operation Buttons:** Buttons for addition, subtraction, multiplication, division, and exponentiation. Each button triggers a specific operation.
+3. **Result Display:** A label or textbox to display the result of the calculation.
+4. **Validation:** Ensure inputs are numerical and handle special cases like division by zero.
+5. **Clear Button:** A button to clear all inputs and the result display.
+6. **Activation Button:** A button on the "Calculator" sheet to show the user form.
